@@ -7,6 +7,7 @@ class NewTask extends Component {
       content: ""
     };
   }
+
   handleClose = () => {
     this.props.handleClose(false);
   };
@@ -41,4 +42,5 @@ class NewTask extends Component {
     );
   }
 }
+
 export default NewTask;
