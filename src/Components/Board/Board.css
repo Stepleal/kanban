@@ -55,13 +55,9 @@
 }
 .title__input {
   font-weight: 400;
-  /* padding-inline: 0.5rem; */
   height: 30px;
   border-radius: 5px;
 }
 .board__top > div {
   cursor: pointer;
 }
-
-/* .board__top > input {
-} */
