@@ -8,9 +8,9 @@ class App extends Component {
     super(props);
     this.state = {
       tasks: [
-        { name: "Learn Angular", category: "wip", bgColor: "#9fa8da" },
-        { name: "Learn React", category: "wip", bgColor: "#9fa8da" },
-        { name: "Learn Vue", category: "complete", bgColor: "#e57373" }
+        { name: "Development a new component", category: "wip", bgColor: "#9fa8da" },
+        { name: "Resolving issues", category: "wip", bgColor: "#9fa8da" },
+        { name: "Building kanban app", category: "complete", bgColor: "#e57373" }
       ],
       isClicked: false
     };
