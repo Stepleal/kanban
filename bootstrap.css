@@ -38,3 +38,284 @@
     scroll-behavior: smooth;
   }
 }
+.local__bootstrap body {
+  margin: 0;
+  font-family: var(--bs-font-sans-serif);
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.5;
+  color: #212529;
+  background-color: #fff;
+  -webkit-text-size-adjust: 100%;
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+}
+.local__bootstrap hr {
+  margin: 1rem 0;
+  color: inherit;
+  background-color: currentColor;
+  border: 0;
+  opacity: 0.25;
+}
+.local__bootstrap hr:not([size]) {
+  height: 1px;
+}
+.local__bootstrap h6, .local__bootstrap .h6, .local__bootstrap h5, .local__bootstrap .h5, .local__bootstrap h4, .local__bootstrap .h4, .local__bootstrap h3, .local__bootstrap .h3, .local__bootstrap h2, .local__bootstrap .h2, .local__bootstrap h1, .local__bootstrap .h1 {
+  margin-top: 0;
+  margin-bottom: 0.5rem;
+  font-weight: 500;
+  line-height: 1.2;
+}
+.local__bootstrap h1, .local__bootstrap .h1 {
+  font-size: calc(1.375rem + 1.5vw);
+}
+@media (min-width: 1200px) {
+  .local__bootstrap h1, .local__bootstrap .h1 {
+    font-size: 2.5rem;
+  }
+}
+.local__bootstrap h2, .local__bootstrap .h2 {
+  font-size: calc(1.325rem + 0.9vw);
+}
+@media (min-width: 1200px) {
+  .local__bootstrap h2, .local__bootstrap .h2 {
+    font-size: 2rem;
+  }
+}
+.local__bootstrap h3, .local__bootstrap .h3 {
+  font-size: calc(1.3rem + 0.6vw);
+}
+@media (min-width: 1200px) {
+  .local__bootstrap h3, .local__bootstrap .h3 {
+    font-size: 1.75rem;
+  }
+}
+.local__bootstrap h4, .local__bootstrap .h4 {
+  font-size: calc(1.275rem + 0.3vw);
+}
+@media (min-width: 1200px) {
+  .local__bootstrap h4, .local__bootstrap .h4 {
+    font-size: 1.5rem;
+  }
+}
+.local__bootstrap h5, .local__bootstrap .h5 {
+  font-size: 1.25rem;
+}
+.local__bootstrap h6, .local__bootstrap .h6 {
+  font-size: 1rem;
+}
+.local__bootstrap p {
+  margin-top: 0;
+  margin-bottom: 1rem;
+}
+.local__bootstrap abbr[title],
+.local__bootstrap abbr[data-bs-original-title] {
+  text-decoration: underline dotted;
+  cursor: help;
+  text-decoration-skip-ink: none;
+}
+.local__bootstrap address {
+  margin-bottom: 1rem;
+  font-style: normal;
+  line-height: inherit;
+}
+.local__bootstrap ol,
+.local__bootstrap ul {
+  padding-left: 2rem;
+}
+.local__bootstrap ol,
+.local__bootstrap ul,
+.local__bootstrap dl {
+  margin-top: 0;
+  margin-bottom: 1rem;
+}
+.local__bootstrap ol ol,
+.local__bootstrap ul ul,
+.local__bootstrap ol ul,
+.local__bootstrap ul ol {
+  margin-bottom: 0;
+}
+.local__bootstrap dt {
+  font-weight: 700;
+}
+.local__bootstrap dd {
+  margin-bottom: 0.5rem;
+  margin-left: 0;
+}
+.local__bootstrap blockquote {
+  margin: 0 0 1rem;
+}
+.local__bootstrap b,
+.local__bootstrap strong {
+  font-weight: bolder;
+}
+.local__bootstrap small, .local__bootstrap .small {
+  font-size: 0.875em;
+}
+.local__bootstrap mark, .local__bootstrap .mark {
+  padding: 0.2em;
+  background-color: #fcf8e3;
+}
+.local__bootstrap sub,
+.local__bootstrap sup {
+  position: relative;
+  font-size: 0.75em;
+  line-height: 0;
+  vertical-align: baseline;
+}
+.local__bootstrap sub {
+  bottom: -0.25em;
+}
+.local__bootstrap sup {
+  top: -0.5em;
+}
+.local__bootstrap a {
+  color: #0d6efd;
+  text-decoration: underline;
+}
+.local__bootstrap a:hover {
+  color: #0a58ca;
+}
+.local__bootstrap a:not([href]):not([class]), .local__bootstrap a:not([href]):not([class]):hover {
+  color: inherit;
+  text-decoration: none;
+}
+.local__bootstrap pre,
+.local__bootstrap code,
+.local__bootstrap kbd,
+.local__bootstrap samp {
+  font-family: var(--bs-font-monospace);
+  font-size: 1em;
+  direction: ltr /* rtl:ignore */;
+  unicode-bidi: bidi-override;
+}
+.local__bootstrap pre {
+  display: block;
+  margin-top: 0;
+  margin-bottom: 1rem;
+  overflow: auto;
+  font-size: 0.875em;
+}
+.local__bootstrap pre code {
+  font-size: inherit;
+  color: inherit;
+  word-break: normal;
+}
+.local__bootstrap code {
+  font-size: 0.875em;
+  color: #d63384;
+  word-wrap: break-word;
+}
+a > .local__bootstrap code {
+  color: inherit;
+}
+.local__bootstrap kbd {
+  padding: 0.2rem 0.4rem;
+  font-size: 0.875em;
+  color: #fff;
+  background-color: #212529;
+  border-radius: 0.2rem;
+}
+.local__bootstrap kbd kbd {
+  padding: 0;
+  font-size: 1em;
+  font-weight: 700;
+}
+.local__bootstrap figure {
+  margin: 0 0 1rem;
+}
+.local__bootstrap img,
+.local__bootstrap svg {
+  vertical-align: middle;
+}
+.local__bootstrap table {
+  caption-side: bottom;
+  border-collapse: collapse;
+}
+.local__bootstrap caption {
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+  color: #6c757d;
+  text-align: left;
+}
+.local__bootstrap th {
+  text-align: inherit;
+  text-align: -webkit-match-parent;
+}
+.local__bootstrap thead,
+.local__bootstrap tbody,
+.local__bootstrap tfoot,
+.local__bootstrap tr,
+.local__bootstrap td,
+.local__bootstrap th {
+  border-color: inherit;
+  border-style: solid;
+  border-width: 0;
+}
+.local__bootstrap label {
+  display: inline-block;
+}
+.local__bootstrap button {
+  border-radius: 0;
+}
+.local__bootstrap button:focus:not(:focus-visible) {
+  outline: 0;
+}
+.local__bootstrap input,
+.local__bootstrap button,
+.local__bootstrap select,
+.local__bootstrap optgroup,
+.local__bootstrap textarea {
+  margin: 0;
+  font-family: inherit;
+  font-size: inherit;
+  line-height: inherit;
+}
+.local__bootstrap button,
+.local__bootstrap select {
+  text-transform: none;
+}
+.local__bootstrap [role=button] {
+  cursor: pointer;
+}
+.local__bootstrap select {
+  word-wrap: normal;
+}
+.local__bootstrap select:disabled {
+  opacity: 1;
+}
+.local__bootstrap [list]::-webkit-calendar-picker-indicator {
+  display: none;
+}
+.local__bootstrap button,
+.local__bootstrap [type=button],
+.local__bootstrap [type=reset],
+.local__bootstrap [type=submit] {
+  -webkit-appearance: button;
+}
+.local__bootstrap button:not(:disabled),
+.local__bootstrap [type=button]:not(:disabled),
+.local__bootstrap [type=reset]:not(:disabled),
+.local__bootstrap [type=submit]:not(:disabled) {
+  cursor: pointer;
+}
+.local__bootstrap ::-moz-focus-inner {
+  padding: 0;
+  border-style: none;
+}
+.local__bootstrap textarea {
+  resize: vertical;
+}
+.local__bootstrap fieldset {
+  min-width: 0;
+  padding: 0;
+  margin: 0;
+  border: 0;
+}
+.local__bootstrap legend {
+  float: left;
+  width: 100%;
+  padding: 0;
+  margin-bottom: 0.5rem;
+  font-size: calc(1.275rem + 0.3vw);
+  line-height: inherit;
+}
