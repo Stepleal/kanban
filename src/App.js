@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 import { render } from "react-dom";
 
-import NewTask from "./Components/NewTask";
+import NewTask from "./Components/NewTask.js";
 
 class App extends Component {
   constructor(props) {
