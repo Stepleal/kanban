@@ -4,6 +4,8 @@
   "description": "This is a kanban board for a class of agiles methodology at Msc. program at UFSC.",
   "keywords": ["react, drag and drop, agile methodology"],
   "main": "src/index.js",
+  "engines": {
+    "node": "14.x"},
   "dependencies": {
     "materialize-css": "1.0.0",
     "react": "16.5.2",
