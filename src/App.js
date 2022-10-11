@@ -1,16 +1,16 @@
 import React, { Component } from "react";
 import { render } from "react-dom";
 
-import NewTask from "./Components/NewTask.js";
+import NewTask from "./Components/NewTask";
 
 class App extends Component {
   constructor(props) {
     super(props);
     this.state = {
       tasks: [
-        { name: "Development a new component", category: "wip", bgColor: "#9fa8da" },
-        { name: "Resolving issues", category: "wip", bgColor: "#9fa8da" },
-        { name: "Building kanban app", category: "complete", bgColor: "#e57373" }
+        { name: "Learn Angular", category: "wip", bgColor: "#9fa8da" },
+        { name: "Learn React", category: "wip", bgColor: "#9fa8da" },
+        { name: "Learn Vue", category: "complete", bgColor: "#e57373" }
       ],
       isClicked: false
     };

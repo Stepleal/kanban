@@ -1,7 +1,7 @@
 {
   "name": "kanban-drag-and-drop",
   "version": "1.0.0",
-  "description": "This is a kanban board for a class of agiles methodology of UFSC.",
+  "description": "This is a kanban board for a class of agiles methodology at Msc. program at UFSC.",
   "keywords": ["react, drag and drop, agile methodology"],
   "main": "src/index.js",
   "dependencies": {
