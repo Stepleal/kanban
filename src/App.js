@@ -8,9 +8,11 @@ class App extends Component {
     super(props);
     this.state = {
       tasks: [
-        { name: "Learn Angular", category: "wip", bgColor: "#9fa8da" },
-        { name: "Learn React", category: "wip", bgColor: "#9fa8da" },
-        { name: "Learn Vue", category: "complete", bgColor: "#e57373" }
+        { name: "Aplly new component", category: "wip", bgColor: "#9fa8da" },
+        { name: "Resolve issues", category: "wip", bgColor: "#9fa8da" },
+        { name: "Learn Angular", category: "complete", bgColor: "#e57373" },
+        { name: "Learn React", category: "complete", bgColor: "#e57373" },
+        { name: "Build app Kanban board", category: "complete", bgColor: "#e57373" }
       ],
       isClicked: false
     };
@@ -86,7 +88,7 @@ class App extends Component {
     return (
       <div className="container-drag">
         {loader}
-        <p className="header">Drag & Drop</p>
+        <p className="header">Kanban Board | Drag & Drop</p>
 
         <div
           className="wip"
