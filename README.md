@@ -14,10 +14,12 @@
 9. Feature: A technical documentation in Markdown will be produced for ease of use/improvement by other developers, but, basically you set ```yarn install``` and after this ```yarn build``` or ```yarn run build```, if is necessary running the code on localhost do you need typing```yarn dev```. 
 
 —————————————————
+
 extra feature
 1. Added Dark/White mode button (initial attempt to implement accessibility/visual comfort)
 
 —————————————————
+
 Future features (after the end of the course)
 1. Multi-user login system (social and Sign Up authentication [email registration])
 2. Database Refactoring
@@ -25,5 +27,6 @@ Future features (after the end of the course)
 4. Alert for a number greater than 4 lanes created (in order to alert the user that the process is making the process less agile)
 
 —————————————————
+
 issues
 1. The tasks type of issues will be opened on demand, during testing or at deployment
