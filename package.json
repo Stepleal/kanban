@@ -3,6 +3,9 @@
   "private": true,
   "version": "1.0.0",
   "Author": "Alexandre Trieste",
+  "engines": {
+    "node": "16.x"
+  },
   "scripts": {
     "dev": "vite",
     "build": "vite build",
