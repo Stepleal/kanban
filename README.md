@@ -36,3 +36,6 @@ Future features (after the end of the course)
 
 issues
 1. The tasks type of issues will be opened on demand, during testing or at deployment
+
+
+by [Alexandre Trieste](https://www.linkedin.com/in/alexandretrieste)
