@@ -1,4 +1,10 @@
 # 🚨🚧kanban Agile Board🚧🚨
+
+![Dark Mode](https://github.com/alexandretrieste/image_for_Readme/blob/main/Dark-Mode.jpeg)
+
+
+![Light Mode](https://github.com/alexandretrieste/image_for_Readme/blob/main/Light-Mode.jpeg)
+
 ### Creating a kanban board with [ReactJS](https://beta.reactjs.org/learn) & [ViteJS](https://vitejs.dev/guide/)
 ### Using the [conventional commits](https://www.conventionalcommits.org/en/v1.0.0-beta.4/)
 
