@@ -19,7 +19,7 @@ import { v4 as uuidv4 } from "uuid";
 import Label from "../../Label/Label";
 
 export default function CardDetails(props) {
-  const colors = ["#61bd4f", "#f2d600", "#ff9f1a", "#eb5a46", "#c377e0"];
+  const colors = ["#00FF7F", "#f2d600", "#FF0000"];
 
   const [values, setValues] = useState({ ...props.card });
   const [input, setInput] = useState(false);
